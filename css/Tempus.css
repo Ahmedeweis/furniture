@@ -1,0 +1,87 @@
+/* 0 Variables */
+:root {
+}
+/* 1 Variables */
+/* Start Global Rules */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* Small */
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+/* Medium */
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+/* Large */
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+/* End Global Rules */
+/* 0 header */
+header {
+
+}
+header .container {
+  display:flex;
+}
+header .container .logo {
+  display:flex;
+  align-items:center;
+}
+header .container .logo img {
+
+}
+header .container .logo h1 {
+ display:inline;
+}
+header .container .nav {
+  display:flex;
+  flex:1;
+  align-self:center;
+  justify-content:flex-end;
+}
+header .container .nav li {
+  display:flex;
+  align-items:center;
+  padding-left:25px;
+}
+header .container .nav li img {
+  margin-left:10px;
+}
+header .container .nav li h2 {
+
+}
+header .container .nav li h2 a {
+
+}
+/* 1 header */
