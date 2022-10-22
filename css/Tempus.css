@@ -218,7 +218,7 @@ header a:hover {
   }
 }
 /* 1 separat */ 
-/* 0 over-view  */
+/* 0 over-view */
 .testimonials {
   min-height: 100vh;
   position:relative;
@@ -392,3 +392,33 @@ header a:hover {
 @media (max-width: 1200px) {
 }
 /* 1 over-view  */
+/* 0 house */
+.house .container {
+  display: flex;
+  justify-content:center;
+  align-items: flex-start;
+  flex-direction:column;
+}
+.house .para {
+  display: flex;
+  justify-content:space-between;
+  width:100%;
+  margin:10px 0px 20px ;
+}
+.house .arrows .left-arrow  {
+ margin-right:10px;
+}
+.house img {
+  width:370px;
+}
+.photo {
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  width:100%;
+}
+.photo div {
+  width:80%;
+  overflow:hidden;
+}
+/* 1 house */
