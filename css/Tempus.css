@@ -135,7 +135,7 @@ header a:hover {
   padding: 10px;
 }
 .main-text h1 {
-  color:#00ffff;
+  color:white;
   font-size:60px;
   z-index:999;
 }
@@ -144,7 +144,7 @@ header a:hover {
   z-index:999;
 }
 .main-text p {
-  color:#00ffff;
+  color:white;
   font-weight:bold;
   font-size:24px;
   z-index:999;
@@ -154,7 +154,7 @@ header a:hover {
   width:35%;
   z-index:999;
   border:none;
-  background-color:#00ffff;
+  background-color:white;
   padding:10px;
   text-align:center;
   color:white;
@@ -422,3 +422,61 @@ header a:hover {
   overflow:hidden;
 }
 /* 1 house */
+/* 0 living */
+.living {
+  padding-top: 80px;
+}
+.living .container {
+  display: flex;
+  justify-content: space-between;
+}
+.liv-content {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.liv-content h1,
+.liv-content button,
+.liv-content p {
+  margin: 10px 0;
+}
+
+.first-btn {
+  padding: 10px 20px;
+  background-color: #1C2C2C;
+  color: white;
+  border: solid 2px #1C2C2C;
+  cursor: pointer;
+  transition: 0.4s;
+  width:200px;
+}
+.first-btn:hover {
+  background-color: white;
+  color: #1C2C2C;
+  border: solid 2px #1C2C2C;
+}
+.sec-btn {
+  padding: 10px 20px;
+  background-color: white;
+  border: solid 2px #1C2C2C;
+  cursor: pointer;
+  transition: 0.4s;
+  width:200px;
+}
+.sec-btn:hover {
+  padding: 10px 20px;
+  background-color: #1C2C2C;
+  color: white;
+  border: solid 2px #1C2C2C;
+}
+.left-sideII {
+  display: flex;
+}
+.liv-pic {
+  width: 60%;
+}
+.liv-pic img{
+  width: -webkit-fill-available;
+}
+/* 1 living */
